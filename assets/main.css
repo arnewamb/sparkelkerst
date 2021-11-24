@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'aunofa';
+    src: url('aunofa_script_demo-webfont.woff2') format('woff2'),
+         url('aunofa_script_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@import url('https://fonts.googleapis.com/css?family=Inria+Serif&display=swap');
+
+body {
+	color: white;
+	width: 100vw;
+}
+.row{
+  margin: 0;
+	margin-top: 15%;
+}
+h1 {
+	font-family: "aunofa";
+	font-size: 5rem;
+	text-align: center;
+}
+#personalmessage{
+padding: 30px;
+  text-align: center;
+  font-family: 'avenir', sans-serif;
+  font-size: 18px;
+}
+.greets{
+  font-size: 3rem;
+
+}
+@media (max-width: 1000px) {
+	h1 {
+		font-size: 10rem;
+	}
+  .greets{
+    font-size: 7rem;
+  }
+  #personalmessage{
+    font-size: 2em;
+    margin-bottom: 100px;
+  }
+}
+/* snow */
+
+canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1000;
+  height: 5000px;
+}
+
+.aluvisionlogo{
+  width: 200px;
+  height: auto;
+}
