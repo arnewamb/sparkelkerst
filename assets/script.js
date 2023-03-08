@@ -76,15 +76,8 @@ else{
 
 // change color of body
 var myArray = [
-  "#981730",
-  "#DC5713",
-  "#CE9017",
-  "#004C59",
-  "#FFC944",
-  "#1A868D",
-  "#0067B9",
-  "#50775b",
-  "#8BB297",
+  "#0c2d4d",
+  "#f16261",
 ];
 
 var color = myArray[Math.floor(Math.random()*myArray.length)];
